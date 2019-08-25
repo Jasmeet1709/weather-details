@@ -7,7 +7,7 @@ import './App.css';
 
 class App extends React.Component {
   state={lists:[]};
-  API_KEY = "4e8e2d219bd9f75a359691792d6846b8";
+  API_KEY = "";
   onSearchSubmit = async term => {
     try {
       const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${term}%7Bterm%7D&appid=${this.API_KEY}&units=metric`)
