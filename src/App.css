@@ -28,12 +28,6 @@ h1{
   text-align: center;
   font-family:Comic sans-serif;
   font-size: 100px;
-  /* border:1px solid#38588a; */
-  /* border-radius: 10px; */
-  /* width:auto; */
-  /* margin-bottom:10PX;
-  margin-left:66px; */
-
 }
 #search{
   
@@ -51,16 +45,3 @@ h1{
   border: 0;
 }
 
-.weather-value {
-  color: red;
-  font-weight: 200;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
